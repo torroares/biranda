@@ -33,32 +33,38 @@ export default function Home() {
         </div>
 
         {/* Portrait */}
-        <div className="bg-surface rounded-3xl p-6 shadow-sm max-w-sm mx-auto md:mx-0">
-          <div className="relative aspect-[3/4] rounded-2xl overflow-hidden">
+<div className="flex justify-center md:justify-start">
+  <div className="bg-surface rounded-3xl p-6 shadow-sm
+                  w-full max-w-xs md:max-w-sm">
 
-            <Image
-              src="/ueber-mich/dr-biranda.jpg"
-              alt="Dr. med. Biranda Bucher"
-              fill
-              unoptimized
-              className="object-cover"
-              priority
-            />
+    <div className="relative aspect-[3/4] rounded-2xl overflow-hidden">
 
-            {/* Verlauf */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/10 via-transparent to-transparent" />
+      <Image
+        src="/ueber-mich/dr-biranda.jpg"
+        alt="Dr. med. Biranda Bucher"
+        fill
+        unoptimized
+        className="object-cover"
+        priority
+      />
 
-            {/* Initialen */}
-            <div className="absolute bottom-4 left-1/2 -translate-x-1/2
-                            flex flex-col items-center text-white">
-             
-              <p className="text-xs text-black/90">
-                Dr. Biranda Bucher
-              </p>
-            </div>
+      {/* Verlauf */}
+      <div className="absolute inset-0 bg-gradient-to-t from-black/10 via-transparent to-transparent" />
 
-          </div>
-        </div>
+      {/* Initialen */}
+      <div className="absolute bottom-4 left-1/2 -translate-x-1/2
+                      flex flex-col items-center text-white">
+
+        
+
+        <p className="text-xs text-black/90">
+          Dr. Biranda Bucher
+        </p>
+      </div>
+
+    </div>
+  </div>
+</div>
 
       </section>
 
