@@ -30,14 +30,10 @@ export default function UeberMich() {
       <div className="absolute bottom-4 left-1/2 -translate-x-1/2
                       flex flex-col items-center text-white">
 
-        <div className="w-14 h-14 rounded-full bg-white/80 backdrop-blur
-                        flex items-center justify-center
-                        text-lg font-semibold text-slate-800 mb-1">
-          DB
-        </div>
+        
 
-        <p className="text-xs text-white/90">
-          Dr. Biranda Bucher
+        <p className="text-xs text-black/90">
+         
         </p>
       </div>
 
